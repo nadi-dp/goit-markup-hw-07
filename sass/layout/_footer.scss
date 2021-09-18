@@ -13,17 +13,10 @@
 }
 .contacts-list {
   margin-top: 20px;
-}
-.contacts-list-item:not(:last-child) {
-  margin-bottom: 10px;
-}
-.contact-link-address {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--white-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 .contact-link {
   font-style: normal;
@@ -32,14 +25,24 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
-.contact-link-address:hover,
-.contact-link-address:focus {
-  color: var(--accent-color);
-}
-.contact-link:hover,
-.contact-link:focus {
-  color: var(--accent-color);
+.contact-link-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .flex {
   display: flex;
@@ -72,10 +75,11 @@
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--white-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-list-link:hover,
-.footer-list-link:focus {
-  background-color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 .footer-form-box-title {
   font-size: 14px;
@@ -116,10 +120,11 @@
   color: var(--white-color);
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-form-btn:hover,
-.footer-form-btn:focus {
-  background-color: var(--button-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--button-color);
+  }
 }
 .footer-form-icon {
   fill: var(--white-color);

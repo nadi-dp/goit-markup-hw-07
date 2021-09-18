@@ -10,9 +10,10 @@
 }
 .advant-list-item {
   width: 270px;
-}
-.advant-list-item:not(:last-child) {
-  margin-right: 30px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .advant-text {
   font-size: 14px;
