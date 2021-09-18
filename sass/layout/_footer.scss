@@ -8,7 +8,7 @@
 .logo-link {
   color: #2196f3;
 }
-.logo-part-footer {
+.logo-part_footer {
   color: var(--white-color);
 }
 .contacts-list {
@@ -68,10 +68,10 @@
   justify-content: space-between;
   align-items: baseline;
 }
-.footer-social-list-icon {
+.footer-social-list__icon {
   fill: currentColor;
 }
-.footer-list-link {
+.footer-list__link_theme-dark {
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--white-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);

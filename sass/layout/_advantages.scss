@@ -1,4 +1,4 @@
-.advant-cards-icon {
+.advant-cards__icon {
   margin-bottom: 30px;
   padding: 25px 100px;
   background-color: #f5f4fa;
@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
 }
-.advant-list-item {
+.advant-list__item {
   width: 270px;
 
   &:not(:last-child) {

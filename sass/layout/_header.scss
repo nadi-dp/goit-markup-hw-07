@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
 }
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 .header-contacts {
@@ -33,7 +33,7 @@
   margin-right: 95px;
   color: #2196f3;
 }
-.menu-link {
+.menu__link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -62,11 +62,11 @@
     border-radius: 2px;
   }
 }
-.contact-icon {
+.contact__icon {
   fill: currentColor;
   margin-right: 10px;
 }
-.mail-link {
+.header__mail-link {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -81,7 +81,7 @@
     color: var(--accent-color);
   }
 }
-.tel-link {
+.header__tel-link {
   display: flex;
   align-items: center;
   font-weight: 500;
