@@ -429,45 +429,45 @@ body {
   background-color: var(--button-color);
 }
 
-.advant-cards__icon {
+.advantages-cards__icon {
   margin-bottom: 30px;
   padding: 25px 100px;
   background-color: #f5f4fa;
   border-radius: 4px;
 }
 
-.advant-list {
+.advantages-list {
   display: flex;
   justify-content: space-between;
 }
 
-.advant-list__item {
+.advantages-list__item {
   width: 270px;
 }
 
-.advant-list__item:not(:last-child) {
+.advantages-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.advant-text {
+.advantages-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--grey-color);
 }
 
-.occup-list {
+.occupation-list {
   display: flex;
   margin-right: -30px;
 }
 
-.occup-list__item {
+.occupation-list__item {
   position: relative;
   flex-basis: calc 3.33333px;
   margin-right: 30px;
 }
 
-.occup-list-wrapper {
+.occupation-list-wrapper {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -475,7 +475,7 @@ body {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.occup-list-wrapper-text {
+.occupation-list-wrapper-text {
   color: var(--white-color);
   font-size: 14px;
   line-height: 1.14;
@@ -485,7 +485,7 @@ body {
   padding: 27px 0;
 }
 
-.team-container {
+.team {
   background-color: #f5f4fa;
 }
 
@@ -724,7 +724,7 @@ body {
   margin-left: 10px;
 }
 
-.navi-list {
+.navigation-list {
   display: flex;
   justify-content: space-between;
   width: 610px;
@@ -759,7 +759,7 @@ body {
   margin-bottom: -30px;
 }
 
-.projects-list-link {
+.projects-list__link {
   display: block;
 }
 
@@ -768,13 +768,13 @@ body {
   overflow: hidden;
 }
 
-.projects-item {
+.projects-list__item {
   flex-basis: calc 3.33333px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
-.projects-item:focus, .projects-item:hover {
+.projects-list__item:focus, .projects-list__item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -815,8 +815,8 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects-list-link:focus .overlay,
-.projects-list-link:hover .overlay {
+.projects-list__link:focus .overlay,
+.projects-list__link:hover .overlay {
   transform: translateY(0%);
 }
 /*# sourceMappingURL=main.css.map */
